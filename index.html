@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой путь кодера</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="fixed w-full bg-gray-800 p-4">
+        <nav class="flex justify-center space-x-6">
+            <a href="#home" class="hover:text-blue-400">Главная</a>
+            <a href="#about" class="hover:text-blue-400">Обо мне</a>
+            <a href="#projects" class="hover:text-blue-400">Проекты</a>
+            <a href="#contact" class="hover:text-blue-400">Контакты</a>
+        </nav>
+    </header>
+    <section id="home" class="h-screen flex items-center justify-center">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold animate-fadeIn">Привет, я начинающий кодер!</h1>
+            <p class="text-xl mt-4">Изучаю C++, C, Java, Bash и Python</p>
+        </div>
+    </section>
+    <section id="about" class="min-h-screen p-8">
+        <h2 class="text-3xl font-bold text-center">Обо мне</h2>
+        <p class="mt-4 text-lg max-w-2xl mx-auto">
+            Я начинающий программист, изучающий C++, C, Java, Bash и Python. Моя цель — стать профессиональным разработчиком!
+        </p>
+    </section>
+    <section id="projects" class="min-h-screen p-8 bg-gray-800">
+        <h2 class="text-3xl font-bold text-center">Мои проекты</h2>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="p-4 bg-gray-700 rounded-lg">
+                <h3 class="text-xl font-semibold">Калькулятор на C++</h3>
+                <p>Консольный калькулятор для базовых операций.</p>
+            </div>
+            <div class="p-4 bg-gray-700 rounded-lg">
+                <h3 class="text-xl font-semibold">Скрипт на Python</h3>
+                <p>Скрипт для автоматизации задач.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="min-h-screen p-8">
+        <h2 class="text-3xl font-bold text-center">Связаться со мной</h2>
+        <p class="mt-4 text-lg text-center">
+            Найди меня на <a href="https://github.com/Sashas240" class="text-blue-400">GitHub</a>!
+        </p>
+    </section>
+    <div id="particles-js" style="position: fixed; width: 100%; height: 100%; z-index: -1;"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
